@@ -1,0 +1,53 @@
+{
+  "bag_path": "bags/elevator/elevator_slow",
+  "map_yaml": "maps/elevator/map.yaml",
+  "result_file": "runtime/cache/elevator_slow_runtime.npz",
+  "runtime_scale": 1.0,
+  "scan_odom_policy": "latest_odom_at_or_before_scan_stamp",
+  "wall_duration_s": 7.036844457999999,
+  "config": {
+    "n_beams": 30,
+    "max_range": 3.5,
+    "sigma_qd": 0.05,
+    "sigma_qth": 0.0893,
+    "sigma_r": 0.06,
+    "eps_h": 0.035,
+    "gate": 0.157,
+    "sigma_p0": 0.05,
+    "lost_valid_ratio": 0.25,
+    "lost_consec_steps": 5,
+    "p_trace_max": 5.0,
+    "recovery_wait_s": 1.0,
+    "grid_spacing": 0.4,
+    "n_theta": 16,
+    "free_thresh": 220,
+    "recovery_p_init": 0.3,
+    "recovery_gate": 0.5,
+    "score_n_eval": 30,
+    "score_mu": 0.5,
+    "sensor_queue_depth": 5
+  },
+  "mode_names": [
+    "GLOBAL_LOC",
+    "WAITING",
+    "TRACKING"
+  ],
+  "status_names": [
+    "processed",
+    "buffered",
+    "ignored_search",
+    "no_odom",
+    "dropped_queue"
+  ],
+  "events": [
+    {
+      "time": 1779452923.286737,
+      "type": "initialpose",
+      "pose": [
+        0.20999999999999996,
+        -0.20999999999999996,
+        -3.141592653589793
+      ]
+    }
+  ]
+}

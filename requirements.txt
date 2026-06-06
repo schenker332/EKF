@@ -1,0 +1,6 @@
+numpy
+PyQt6
+pyqtgraph
+Pillow
+PyYAML
+rosbags

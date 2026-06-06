@@ -1,0 +1,53 @@
+{
+  "bag_path": "bags/lab/rosbag2_lab_slow",
+  "map_yaml": "maps/lab/map.yaml",
+  "result_file": "runtime/cache/rosbag2_lab_slow_runtime.npz",
+  "runtime_scale": 1.0,
+  "scan_odom_policy": "latest_odom_at_or_before_scan_stamp",
+  "wall_duration_s": 11.663707291999913,
+  "config": {
+    "n_beams": 30,
+    "max_range": 3.5,
+    "sigma_qd": 0.05,
+    "sigma_qth": 0.0893,
+    "sigma_r": 0.06,
+    "eps_h": 0.035,
+    "gate": 0.157,
+    "sigma_p0": 0.05,
+    "lost_valid_ratio": 0.25,
+    "lost_consec_steps": 5,
+    "p_trace_max": 5.0,
+    "recovery_wait_s": 1.0,
+    "grid_spacing": 0.4,
+    "n_theta": 16,
+    "free_thresh": 220,
+    "recovery_p_init": 0.3,
+    "recovery_gate": 0.5,
+    "score_n_eval": 30,
+    "score_mu": 0.5,
+    "sensor_queue_depth": 5
+  },
+  "mode_names": [
+    "GLOBAL_LOC",
+    "WAITING",
+    "TRACKING"
+  ],
+  "status_names": [
+    "processed",
+    "buffered",
+    "ignored_search",
+    "no_odom",
+    "dropped_queue"
+  ],
+  "events": [
+    {
+      "time": 1779441665.079029,
+      "type": "initialpose",
+      "pose": [
+        -1.8999999999999995,
+        0.2500000000000009,
+        1.178097245096172
+      ]
+    }
+  ]
+}

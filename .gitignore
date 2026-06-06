@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw ROS2 bags are intentionally kept outside Git.
+bags/
+**/*.db3
+**/metadata.yaml
+
+# Generated outputs.
+runs/
+robot/runs/
+runtime/sweep_results/
+*.log

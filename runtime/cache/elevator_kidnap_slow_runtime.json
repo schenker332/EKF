@@ -1,0 +1,181 @@
+{
+  "bag_path": "bags/elevator/elevator_kidnap_slow",
+  "map_yaml": "maps/elevator/map.yaml",
+  "result_file": "runtime/cache/elevator_kidnap_slow_runtime.npz",
+  "runtime_scale": 1.0,
+  "scan_odom_policy": "latest_odom_at_or_before_scan_stamp",
+  "wall_duration_s": 18.824122584000065,
+  "config": {
+    "n_beams": 30,
+    "max_range": 3.5,
+    "sigma_qd": 0.05,
+    "sigma_qth": 0.0893,
+    "sigma_r": 0.06,
+    "eps_h": 0.035,
+    "gate": 0.157,
+    "sigma_p0": 0.05,
+    "lost_valid_ratio": 0.25,
+    "lost_consec_steps": 5,
+    "p_trace_max": 5.0,
+    "recovery_wait_s": 1.0,
+    "grid_spacing": 0.4,
+    "n_theta": 16,
+    "free_thresh": 220,
+    "recovery_p_init": 0.3,
+    "recovery_gate": 0.5,
+    "score_n_eval": 30,
+    "score_mu": 0.5,
+    "sensor_queue_depth": 5
+  },
+  "mode_names": [
+    "GLOBAL_LOC",
+    "WAITING",
+    "TRACKING"
+  ],
+  "status_names": [
+    "processed",
+    "buffered",
+    "ignored_search",
+    "no_odom",
+    "dropped_queue"
+  ],
+  "events": [
+    {
+      "time": 1779454278.4053476,
+      "type": "initialpose",
+      "pose": [
+        0.6100000000000003,
+        -0.20999999999999996,
+        -3.141592653589793
+      ]
+    },
+    {
+      "time": 1779454355.0661502,
+      "type": "lost",
+      "ratio": 0.2,
+      "pose": [
+        -3.2873097353891225,
+        0.65859464174975,
+        2.608413346898004
+      ]
+    },
+    {
+      "time": 1779454356.0687203,
+      "type": "searching",
+      "reason": "recovery",
+      "buffer_scans": 5
+    },
+    {
+      "time": 1779454356.7523715,
+      "type": "recovered",
+      "score": 0.44605264434730235,
+      "duration_s": 0.6836511660000042,
+      "pose": [
+        -1.3899751461171763,
+        0.9899700571022946,
+        1.0957139442400603
+      ],
+      "search_pose": [
+        -1.3899999999999997,
+        0.9900000000000002,
+        1.9634954084936211
+      ]
+    },
+    {
+      "time": 1779454479.7578678,
+      "type": "lost",
+      "ratio": 0.16666666666666666,
+      "pose": [
+        -3.979620593118964,
+        -0.47726443412687436,
+        0.13713964436095072
+      ]
+    },
+    {
+      "time": 1779454480.7588112,
+      "type": "searching",
+      "reason": "recovery",
+      "buffer_scans": 5
+    },
+    {
+      "time": 1779454481.444352,
+      "type": "recovered",
+      "score": 0.6966240557960596,
+      "duration_s": 0.6855406250000442,
+      "pose": [
+        -4.590000141284719,
+        -0.20999997481765256,
+        0.002872943878173828
+      ],
+      "search_pose": [
+        -4.59,
+        -0.20999999999999996,
+        0.0
+      ]
+    },
+    {
+      "time": 1779454483.1527781,
+      "type": "lost",
+      "ratio": 0.16666666666666666,
+      "pose": [
+        -4.484553722923939,
+        -0.06632940594050296,
+        0.7645658855645978
+      ]
+    },
+    {
+      "time": 1779454484.1698568,
+      "type": "searching",
+      "reason": "recovery",
+      "buffer_scans": 4
+    },
+    {
+      "time": 1779454484.681577,
+      "type": "recovered",
+      "score": 0.6295514944705257,
+      "duration_s": 0.5117202499999394,
+      "pose": [
+        0.20999999999999996,
+        -0.6099999999999999,
+        1.2689981430759083
+      ],
+      "search_pose": [
+        0.20999999999999996,
+        -0.6099999999999999,
+        1.178097245096172
+      ]
+    },
+    {
+      "time": 1779454630.2643564,
+      "type": "lost",
+      "ratio": 0.03333333333333333,
+      "pose": [
+        -3.788206540922635,
+        0.6422274268286872,
+        2.178930664711501
+      ]
+    },
+    {
+      "time": 1779454631.4678097,
+      "type": "searching",
+      "reason": "recovery",
+      "buffer_scans": 6
+    },
+    {
+      "time": 1779454632.3087997,
+      "type": "recovered",
+      "score": 0.6452252972424843,
+      "duration_s": 0.8409901249999621,
+      "pose": [
+        -3.790126050443111,
+        -0.20975183318689414,
+        2.028388971088341
+      ],
+      "search_pose": [
+        -3.79,
+        -0.20999999999999996,
+        2.356194490192345
+      ]
+    }
+  ]
+}
